@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 通常はcontent-boxで、padding,borderを設定すると、
+  箱の大きさはwidth+padding+borderだが、
+  これを設定すると、paddingとborderを
+  含めたwidthになる */
+}
+
+.header {
+  width: 100%;  /*横幅いっぱい*/
+  height: 120px;  /*高さ120px*/
+  background-color: red; /*背景red*/
+}
