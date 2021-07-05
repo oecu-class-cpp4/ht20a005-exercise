@@ -59,23 +59,27 @@ header .heading {
   color: #fff;
 }
 
-.main {
-  width: 840px;
-  display: flex; /* flexboxの利用 */
-  justify-content: center;  /* 子要素の横並び・中央寄せ */
+main {
+  width: 800px;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
+  padding: 70px 0;
 }
 
 .blog {
-  width: 600px;
-  height: 1400px;
-  background-color: limegreen;
+  width: 540px;
+  margin-right: 30px;
+}
+
+.blog-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
 }
 
 .sidebar {
-  width: 240px;
-  height: 1400px;
-  background-color: palegreen;
+  width: 230px;
 }
 
 footer {
